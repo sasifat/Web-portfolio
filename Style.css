@@ -1,0 +1,13 @@
+body{
+    font-family: 'Lora', serif;
+font-family: 'Noto Serif', serif;
+}
+h1{
+    font-size: 50px;
+.name-highlight{
+    color: darkmagenta;
+}
+.half-width{
+    width: 40%;
+}
+}
