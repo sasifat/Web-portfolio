@@ -9,18 +9,131 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Noto+Serif:ital,wght@1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Style.css">
 </head>
+
+
+
+
+
 <body>
-    <section>
+  <style>
+    
+    h1{
+       
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+.orange-highlight{
+    color: orange;
+}
+
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.Link-button{
+    text-decoration: none;
+    background-image: linear-gradient( lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+.dream-area{
+    background-image: url("Images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.singel-experience{
+    box-shadow:10px 10px 40px gray ;
+    border-radius: 2px;
+    height: 60%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, red);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
+  </style>
+</body>
+
+
+
+
+
+<body>
+    <section class="top-banner">
         <div class="half-width">
             <h1>Welcome TO</h1>
-            <h2><span class="name-highlight">Sifat </span>Website</h2>
+            <h2><span class="orange-highlight">Sifat </span>Website</h2>
             <h3>World-class web devoloper</h3>
             <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+            <a class="Link-button" target="_blank" href="https://www.facebook.com/salehakramsifat">HIRE ME</a>
         </div>
         <div class="half-width">
             <img src="Images/profile.png" alt="">
-
         </div>
     </section>
+
+    <section class="dream-area">
+        <div class="half-width">
+            <img src="Images/image 90.png" alt="">
+
+        </div>
+    <div class="half-width">
+        <h2>Big Dream</h2>
+        <h3>Become world's No. 1 Devoloper</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, possimus vel. Consectetur, esse nostrum? Atque?
+            Iusto minus hic perferendis laudantium deserunt nisi animi.
+             Maiores accusamus ullam inventore vel repellat aspernatur.</p>
+            <a class="Link-button" target="_blank" href="https://www.youtube.com/watch?v=ggm0lzsioJU">Download</a>
+
+    </div>
+    </section>
+    <section class="experience-area">
+        <h2>Experiences</h2>
+        <div id="full-stack" class="half-width singel-experience">
+            <h2>Full stack web devoloper</h2>
+            <h3 class="orange-highlight">2023 - present| pro level web Devoloper</h3>
+            <p>Iusto minus hic perferendis laudantium deserunt nisi animi. Maiores accusamus ullam inventore vel repellat aspernatur.</p>
+
+        </div>
+
+        <div id="baby-web" class="half-width singel-experience">
+            <h2>Baby web Devoloper</h2>
+            <h3 class="orange-highlight">2022-2023| Programing Hero Learner</h3>
+            <p>Repudiandae quo fugiat sapiente rerum maxime enim adipisci. Pariatur, accusamus molestiae sint neque cum ducimus.</p>
+        </div>
+    </section>
+    <footer>
+        <p>@Sifat 2023, all right reserved.</p>
+    </footer>
 </body>
 </html>
